@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Your Name</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Creative Developer & Designer</h1>
+            <p>I build beautiful and interactive web experiences.</p>
+        </section>
+
+        <section id="about" class="hidden">
+            <h2>About Me</h2>
+            <p>I'm a passionate developer who loves turning ideas into reality with code. My background in design helps me create applications that are not only functional but also visually appealing.</p>
+        </section>
+
+        <section id="skills" class="hidden">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React</div>
+                <div class="skill">Node.js</div>
+            </div>
+        </section>
+
+        <section id="projects" class="hidden">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 1 Screenshot">
+                    <h3>Project Title One</h3>
+                    <p>A brief description of the project, the technologies used, and the problem it solves.</p>
+                    <div class="project-links">
+                        <a href="#">Live Demo</a>
+                        <a href="#">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 2 Screenshot">
+                    <h3>Project Title Two</h3>
+                    <p>A brief description of the project, the technologies used, and the problem it solves.</p>
+                    <div class="project-links">
+                        <a href="#">Live Demo</a>
+                        <a href="#">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="hidden">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
